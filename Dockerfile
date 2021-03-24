@@ -2,6 +2,6 @@ FROM python:3.9.1
 
 WORKDIR /app
 
-COPY ./labfirst.py .
+COPY ./fib.py .
 
-CMD ["python", "labfirst.py"]
+CMD ["python", "fib.py"]
